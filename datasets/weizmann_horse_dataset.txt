@@ -1,0 +1,22 @@
+Download the Weizmann Horse Dataset for sanity test
+Link: https://www.msri.org/people/members/eranb/weizmann_horse_db.tar.gz
+The dataset should be extracted in [root]/datasets/weizmann_horse_dataset, with following structures:
+
+weizmann_horse_db/
+    figure_ground/
+        horse001.jpg
+        horse002.jpg
+        horse003.jpg
+        ...
+    gray/
+        horse001.jpg
+        horse002.jpg
+        horse003.jpg
+        ...
+    rgb/
+        horse001.jpg
+        horse002.jpg
+        horse003.jpg
+        ...
+
+Then process with [root]/scripts/horse_split_train_val.py to generate sample dataset.

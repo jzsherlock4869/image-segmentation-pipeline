@@ -1,0 +1,24 @@
+exp_name: ~
+model_type: BaselineModel
+result_dir: ../results_horse_test
+device: cuda
+multi_gpu: false
+
+datasets:
+  test_dataset:
+    type: InferSingleDataloader
+    dataroot_img: datasets/weizmann_horse_split/valid_split/images
+    augment:
+      augment_type: simple_aug
+      size: 512
+
+model_arch:
+  type: SMPArch
+  load_path: ../exps_horse_test/000_horse_smparch_template/ckpt/best.pth.tar
+  backbone: DeepLabV3Plus
+  in_channels: 3
+  encoder_name: resnet50
+  classes: 2
+
+infer:
+  output_color: true
