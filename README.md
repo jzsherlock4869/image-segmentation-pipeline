@@ -6,7 +6,7 @@
 [**Installation**](#0x01-installation) | [**Codebase Architecture**](#0x02-codebase-architecture) | [**Configs**](#0x03-config-format-interpretation) | [**Dataset Prepare**](#0x04-dataset-preparation) | [**Develop by Your Own**](#0x05-customized-usage)
 
 
-This repository provides an easy to get started and modify pipeline for image segmentation task. Models from [segmentation_models.pytorch](https://github.com/qubvel/segmentation_models.pytorch) and [MMSeg](https://github.com/open-mmlab/mmsegmentation)
+This repository provides an easy to get started and modify pipeline for image segmentation task. Models from [segmentation_models.pytorch](https://github.com/qubvel/segmentation_models.pytorch) and [MMSegmentation](https://github.com/open-mmlab/mmsegmentation) can be applied as basic network architectures.
 
 #### Demo (DeepLabV3+, trained on [Weizmann Horse Dataset](https://www.msri.org/people/members/eranb/weizmann_horse_db.tar.gz))
 
